@@ -37,7 +37,7 @@ int main(void)
 				"Unable to create a window: %s", SDL_GetError());
 		return EXIT_FAILURE;
 	}
-	SDL_Log("Window created successsfully");
+	SDL_Log("Window created successfully");
 
 	SDL_Log("Creating a renderer ...");
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
@@ -47,7 +47,7 @@ int main(void)
 		SDL_DestroyWindow(window);
 		return EXIT_FAILURE;
 	}
-	SDL_Log("Renderer created successsfully");
+	SDL_Log("Renderer created successfully");
 	SDL_Log("Game starting");
 
 	SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);

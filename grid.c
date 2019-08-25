@@ -61,7 +61,7 @@ void Set(Grid* pgrid, state my_state, unsigned x, unsigned y)
 {
 	pgrid->states[x+1][y+1] = my_state;
 }
-	
+
 
 // Return the state of a specific cell
 bool Is_Alive(Grid* pgrid, unsigned x, unsigned y)
